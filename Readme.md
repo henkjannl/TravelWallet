@@ -41,7 +41,7 @@ After printing, the space in the bottom part where the top bar slides through ma
 
 ### Printing the bottom part
 
-Both parts were designed to have tracks roughly following the U-shape, to get optimal strength. The large bottom part is printed under a 60 degree angle, to make the layers longer and prevent the flat piece of breaking off.
+Both parts were designed to have tracks roughly following the U-shape, to get optimal strength. The large bottom part is printed under a 60 degree angle, to make the layers longer and prevent the flat piece from breaking off.
 
 The large bottom part is placed on a raft. Three support enforcers were used:
 
@@ -51,7 +51,7 @@ In the Prusaslicer, choose the following settings:
 
 1. Place the bottom part on it's small end plane under 60° by selecting it and choosing the `Place on face`-button or the shortcut key `F` and select the face that is placed on the build plate.
 1. Place the part in the middle by the `Arrange`-button or the shortcut key `A`
-1. Choose a layer height of 0.2 mm (others are fine too, depending on the roughness you want and the time you have.
+1. Choose a layer height of 0.2 mm (others are fine too, depending on the roughness you want and the time you have)
 1. Choose 6 perimeter lines in the print settings tab
 1. Choose 2 raft layers in the `Support material` section of the `Print settings` tab
 1. Add three support enforcers by right-clicking the object in the main window choosing `Add support enforcer`, with positions and dimensions according to the table below. Don't forget to unlock the size lock which allows independent scaling in all directions.
@@ -70,7 +70,7 @@ Printing takes around 3 hours on a Prusa Mk3s
 
 ### Printing the top part
 
-The top bar is printed on its side, so the tracks followe the U-shape, to get optimal strength.
+The top bar is printed on its side, so the tracks follow the U-shape, to get optimal strength.
 
 ![Supports](images/topbar.png)
 
@@ -91,15 +91,16 @@ What is required:
 - 3x regular rubber bands 60 mm x 1.4 mm 
 - 1x plastic L-slieve (to prevent the paper money from sliding)
 - 1x small piece of paper (to prevent the coins from making noise)
+- Money and cards
 
 ![Assembly manual](images/manual.png)
 
 
 ## CAD file
-The bottom part and the top bar are included in a single FreeCAD file. The text triggers a visual bug in FreeCAD so it looks as if the letters shine through. Don't worry, it does not affect the 3D model.
+The bottom part and the top bar are included in a single FreeCAD file. The is a visual bug in FreeCAD so it may look as if the letters shine through. Don't worry, it does not affect the 3D model.
 - If you want to export the top bar, locate `Top part > Top body > Top bar` in the model tree.
 - If you want to export the bottom part without a name, locate `Bottom part > Bottom body > BottomWithoutName` in the model tree.
-- If you want to export the bottom part with your name on it, follow the  [instructions below](#Changing-the-name-in-the-bottom-part).
+- If you want to export the bottom part with your name on it, follow the [instructions below](#Changing-the-name-in-the-bottom-part).
 
 ![CAD model](images/model.png)
 
@@ -119,5 +120,3 @@ This is a little complex and not super straightforward, so follow the instructio
 1. Select `File > Export...` from the menu to export the bottom part to a 3D printable file format.
 
 ![FreeCAD](images/freecad.png)
-
-
