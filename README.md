@@ -19,9 +19,11 @@ The following files are included:
 File                   | Contains
 ---------------------- | ----------------
 TravelWallet.FCStd     | Original FreeCAD file with which the models were created
+BottomWithoutName.3mf  | A Prusa project file for the bottom part
 BottomWithoutName.step | Step file of the bottom part without a name on it
 BottomWithoutName.stl  | STL file of the bottom part without a name on it
 BottomWithoutName.amf  | AMF file of the bottom part without a name on it
+TopPart.3mf            | A Prusa project file for the top part
 TopPart.step           | Step file of the top part without a name on it
 TopPart.stl            | STL file of the top part without a name on it
 TopPart.amf            | Advanced manufacturing format of the top part
@@ -55,12 +57,13 @@ In the Prusaslicer, choose the following settings:
 1. Add three support enforcers by right-clicking the object in the main window choosing `Add support enforcer`, with positions and dimensions according to the table below. Don't forget to unlock the size lock which allows independent scaling in all directions.
 1. Select `For support enforcers only` in the supports drop down list
 
-
 Support enforcer | Type | Position X | Position Y | Position Z | Size X | Size Y | Size Z | 
 ---------------- | ---- | -----------| -----------| -----------| -------| -------| -------|
-1                | box  | -17 mm     | -30 mm     | 6 mm       | 10 mm  |  4 mm  | 30 mm  |     
-2                | box  | -17 mm     |  30 mm     | 6 mm       | 10 mm  |  4 mm  | 30 mm  |     
-3                | box  |  -3 mm     |   0 mm     | 5 mm       |  6 mm  | 12 mm  | 50 mm  |     
+1                | box  | -17 mm     | -30 mm     | 10 mm      | 10 mm  |  4 mm  | 30 mm  |     
+2                | box  | -17 mm     |  30 mm     | 10 mm      | 10 mm  |  4 mm  | 30 mm  |     
+3                | box  |  -3 mm     |   0 mm     | 9 mm       |  6 mm  | 12 mm  | 50 mm  |     
+
+Printing takes around 3 hours on a Prusa Mk3s
 
 ![Bottom part](images/bottom.png)
 
@@ -77,6 +80,8 @@ In the Prusaslicer, choose the following settings:
 1. Place the part in the middle by the `Arrange`-button or the shortcut key `A`
 1. Choose a layer height of 0.2 mm
 1. Choose 6 perimeter lines in the print settings tab
+
+Printing takes around 45 minutes on a Prusa Mk3s
 
 ## Assembly
 
