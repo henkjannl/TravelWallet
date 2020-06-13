@@ -5,7 +5,7 @@ This wallet, although very compact, fits:
 - up to 6 euro's and
 - some paper money
 
-So if you include the right cards, you can travel the world with not much more than this. If the rubber bands loose their tension, they can easily be replaced wherever you are.
+So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are.
 
 The original CAD file is included, which allows you to personalize it with your name following the [instructions below](#Changing-the-name-in-the-bottom-part).
 
