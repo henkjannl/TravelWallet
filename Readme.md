@@ -2,7 +2,7 @@
 
 This wallet, although very compact, fits:
 - 6 to 18 credit cards
-- up to 6 euro's and
+- up to 6 euro's in coins and
 - some paper money
 
 So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are.
