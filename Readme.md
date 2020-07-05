@@ -7,6 +7,8 @@ This wallet, although very compact, fits:
 
 So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are.
 
+With an alternative top part, fewer credit cards can be stored.
+
 The original CAD file is included, which allows you to personalize it with your name following the [instructions below](#Changing-the-name-in-the-bottom-part).
 
 ![Wallet](images/wallet.png)
@@ -24,9 +26,12 @@ BottomWithoutName.step | Step file of the bottom part without a name on it
 BottomWithoutName.stl  | STL file of the bottom part without a name on it
 BottomWithoutName.amf  | AMF file of the bottom part without a name on it
 TopPart.3mf            | A Prusa project file for the top part
-TopPart.step           | Step file of the top part without a name on it
-TopPart.stl            | STL file of the top part without a name on it
+TopPart.step           | Step file of the top part
+TopPart.stl            | STL file of the top part
 TopPart.amf            | Advanced manufacturing format of the top part
+TopPartSlim.3mf        | A Prusa project file for the top part suitable for fewer credit cards
+TopPartSlim.stl        | STL file of the top part suitable for fewer credit cards
+TopPartSlim.amf        | Advanced manufacturing format of the top part suitable for fewer credit cards
 User Manual.pdf        | The assembly instructions
 Readme.md              | This readme file
 big_noodle_titling.ttf | The font file used to put a name on the bottom part
