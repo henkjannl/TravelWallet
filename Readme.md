@@ -32,9 +32,14 @@ Readme.md              | This readme file
 
 ## Printing the parts
 
-The print instructions assume the Prusa slicer, but other slicers will also be fine. I used PETG but other materials such as PLA will be no problem.
+The print instructions assume the Prusa slicer, but other slicers will also be fine. I used PETG but other materials such as PLA will be no problem. I printed both parts upright so the U-shapes come out strong.
 
-After printing, the space in the bottom part where the top bar slides through may need a little grinding to form a smooth guide.
+<p align="center">
+  <img src="images/printing.png" alt="Printing" width="350">
+</p>
+
+After printing, the space in the bottom part where the top bar slides through may need a little grinding to ensure a smooth guide.
+
 
 
 ## Assembly instructions
