@@ -2,7 +2,7 @@
 
 I thought it would be a cool idea to make IKEA style assembly instructions. Creating the assembly instructions actually took more time than building the 3D model.
 
-I documented the workflow since this can also be useful for more serious purposes (for folks who want to design a cupboard).
+I documented the workflow since this can be useful for more serious purposes.
 
 All files used to compile the manual are in a separate directory named `manual`. The assembly instructions are in one Inkscape file named `_User Manual.svg`. All images are vector based which translates well to pdf. The pdf file `User Manual.pdf` was created by simply saving this Inkscape file as pdf.
 
@@ -45,25 +45,13 @@ I googled an image of an IKEA allen key and manually traced it in Inkscape to cr
 ## E. The rubber bands
 The rubber bands can be drawn as follows:
 
-* Draw a closed B-spline with strokewidth of 0.75 mm
+1. Draw a closed B-spline with strokewidth of 0.75 mm
+1. Choose `path > stroke to path`. Change stokewidth to 0.15 mm
+1. Draw the missing lines using the same linestyle. Group all items together using `ctrl-G`
 
 <p align="left">
-  <img src="rubber_step1.png" alt="step 1" width="150">
+  <img src="rubberband.png" alt="step 3" width="600">
 </p>  
-
-* Choose `path > stroke to path`
-* Change stokewidth to 0.15 mm
-
-<p align="left">
-  <img src="rubber_step2.png" alt="step 2" width="150">
-</p>  
-
-* Draw the missing lines using the same linestyle
-
-<p align="left">
-  <img src="rubber_step3.png" alt="step 3" width="150">
-</p>  
-* Group all items together using `ctrl-G`
 
 ## F. The folded paper
 The folded paper was simply drawn in Inkscape.
