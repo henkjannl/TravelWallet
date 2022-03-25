@@ -14,7 +14,7 @@ All files used to compile the manual are in a separate directory named `manual`.
 The workflow for each little 3D image of the model started in FreeCAD:
 * For each image of the wallet, a dedicated FreeCAD assembly of the depicted situation was created (8 in total). These assemblies were created using the `A2plus` workbench. Each assembly is saved as `/manual/UserManualImageX.FCStd`
 * After creating the assembly, all parts were grouped together using the `Compound` command in the `Part` workbench
-* While watching the 3D model from the top, the `Compound` was rotated by right-clicking `Transform` in the model tree.  
+* The `Compound` was rotated to give it the right orientation when looking from the top by right-clicking `Transform` in the model tree.  
 * Then, a blank A4 page was created by using `Insert Page using Template` in the `TechDraw` workbench
 * A view of the model was inserted by selecting the `Compound` in the model tree and clicking `Insert View` from the toolbar
 * The `Smooth Visible` property of the view was switched off
