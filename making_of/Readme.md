@@ -10,39 +10,37 @@ All files used to compile the manual are in a separate directory named `manual`.
   <img src="themakingof.png" alt="overview" width="600">
 </p>
 
+This is intended as a tribute to the clear assembly instructions from Sweden. I have absolutely no intent to harm any businedd interests. I'm happy to take the content mentioned under C offline if our friends in Sweden have mixed feelings, just let me know.
+
+
 ## A. The images of the wallet
 The workflow for each little 3D image of the model started in FreeCAD:
-* For each image of the wallet, a dedicated FreeCAD assembly of the depicted situation was created (8 in total). These assemblies were created using the `A2plus` workbench. Each assembly is saved as `/manual/UserManualImageX.FCStd`
-* After creating the assembly, all parts were grouped together using the `Compound` command in the `Part` workbench
-* The `Compound` was rotated to give it the right orientation when looking from the top by right-clicking `Transform` in the model tree.  
-* Then, a blank A4 page was created by using `Insert Page using Template` in the `TechDraw` workbench
-* A view of the model was inserted by selecting the `Compound` in the model tree and clicking `Insert View` from the toolbar
-* The `Smooth Visible` property of the view was switched off
-* Then, the drawing was exported to SVG Export using `Page as SVG` (can be found under `/manual/UserManualImageX.svg`)
+* For each image of the wallet, create a dedicated FreeCAD assembly of the depicted situation (8 in total). These assemblies were created using the `A2plus` workbench. Each assembly is saved as `/manual/UserManualImage*.FCStd`
+* After creating the assembly, group all parts together using the `Compound` command in the `Part` workbench
+* Rotate the `Compound` to give it the right orientation when looking from the top by right-clicking `Transform` in the model tree
+* Insert a blank A4 page using `Insert Page using Template` in the `TechDraw` workbench
+* Insert a view of the model by selecting the `Compound` in the model tree and clicking `Insert View` from the toolbar
+* Set the `Smooth Visible` property of the view to `false`
+* Exported the drawing to an SVG file using `Page as SVG` (these files can be found under `/manual/UserManualImage*.svg`)
 
 The workflow continues in Inkscape:
-* Each vector image was imported in the main `_User Manual.svg` file
-* The vector image was initially imported outside the margin of the main image
-* The image was completely ungrouped by using `Object > Ungroup` (or `ctrl-shift-G`) three times
-* Superfluous lines were removed manually.
-* The result was again grouped using `Object > Group` (or `ctrl-G`)
-* The default linestyle was applied to the group using `Copy` (`ctrl-C`) on an existing group, and `Paste Style` (`ctrl-shift-V`) on the new group
-* The new image was then dragged to the final location and scaled down. Ensure all scaling options <img src="scale_options.png" alt="options" height="20"> (right hand side of the toolbar) are switched off to prevent scaling of the the line thickness while adjusting the size of the image. The little lock <img src="little_lock.png" alt="options" height="20"> needs to be activated to ensure proportional scaling.
+* Import each image in the main `_User Manual.svg` file, outside the margin of the main image
+* If needed:
+  * Ungroup the image completely by using `Object > Ungroup` (or `ctrl-shift-G`) three times
+  * Remove superfluous lines manually
+  * Grouped the result using `Object > Group` (or `ctrl-G`)
+* Apply the default linestyle to the group using `Copy` (`ctrl-C`) on an existing group, and `Paste Style` (`ctrl-shift-V`) selecting the new group
+* Drag and scale to the final location. Ensure all scaling options <img src="scale_options.png" alt="options" height="20"> (right hand side of the toolbar) are switched off to prevent scaling of the the line thickness while adjusting the size of the image. The little lock <img src="little_lock.png" alt="options" height="20"> needs to be activated to ensure proportional scaling.
 
-## B. The IKEA key
-I googled an image of an IKEA allen key and manually traced it in Inkscape to create a simple vector image.
+## B. The allen key
+I googled an image of a typical allen key and manually traced it in Inkscape to create a simple vector image.
 
-## C. The hammer
-* The "Ikea Billy assembly instructions" were downloaded as pdf file
-* The file was opened in Inkscape using `File > Open` and selecting page 10
-* The hammer was copied to the main Inkscape file
+## C. The hammer and the 'call IKEA' icon
+* Download the "Ikea Billy assembly instructions" as pdf file
+* Open the file in Inkscape using `File > Open` and selecting page 10 and 5 respectively
+* Copy the resective content to the main Inkscape file
 
-## D. The 'call IKEA' icon
-* The "Ikea Billy assembly instructions" were downloaded as pdf file
-* The file was opened in Inkscape using `File > Open` and selecting page 5
-* The call IKEA icon was copied to the main Inkscape file
-
-## E. The rubber bands
+## D. The rubber bands
 The rubber bands can be drawn as follows:
 
 1. Draw a closed spline with stroke width of 0.75 mm
@@ -53,14 +51,14 @@ The rubber bands can be drawn as follows:
   <img src="rubberband.png" alt="step 3" width="600">
 </p>  
 
-## F. The folded paper
+## E. The folded paper
 The folded paper was simply drawn in Inkscape.
 
-## G. The two euro coins
+## F. The two euro coins
 The two euro coin was downloaded as STEP file and imported into the model.
 
-## H. The five euro bills
+## G. The five euro bills
 The five euro bill was downloaded as bitmap and converted to a vector image using the Inkscape command `Path > Trace bitmap...`
 
-## I. The little plastic bag
+## H. The little plastic bag
 The plastic bag was also drawn in Inkscape.

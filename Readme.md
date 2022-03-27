@@ -12,7 +12,9 @@ So if you include the right cards, you can travel the world with not much more t
 </p>
 
 The models are designed in FreeCAD, a great open source project which has come a long way and deserves much more support from the open source community. 
-This whole project including the assembly instructions was created by just using FreeCAD and Inkscape. Hurray for the open source community (and this is my contribution).
+This project including the assembly instructions was created by just using FreeCAD and Inkscape. Hurray for the open source community (and this is my contribution).
+
+I documented the workflow of creating the IKEA style assembly instructions (bottom of this document) [HERE](making_of/Readme.md) since this can also be useful for more serious purposes (for folks who want to design a cupboard).
 
 The following files are included:
 
@@ -26,11 +28,9 @@ BottomPart.FCStd       | FreeCAD file of the bottom part
 TopPart.FCStd          | FreeCAD file of the top part
 TravelWallet.FCStd     | FreeCAD assembly of the travel wallet
 Readme.md              | This readme file
-\images                | Images used in this readme file
 \manual                | Files used to create the images in the user manual
 \making_of             | Description of how the assembly instructions were created
-
-I documented the workflow of creating the IKEA style assembly instructions since this can also be useful for more serious purposes [here](making_of/Readme.md) (for folks who want to design a cupboard).
+\images                | Images used in this readme file
 
 
 ## Printing the parts
