@@ -24,6 +24,7 @@ Wallet.3mf             | Prusa project file for printing both parts, which inclu
 BottomPart.stl         | Exported 3D model of the bottom part
 TopPart.stl            | Exported 3D model of the top part
 User Manual.pdf        | The assembly instructions
+Noway_Bold.otf         | Font used for the text
 BottomPart.FCStd       | FreeCAD file of the bottom part
 TopPart.FCStd          | FreeCAD file of the top part
 TravelWallet.FCStd     | FreeCAD assembly of the travel wallet
@@ -31,6 +32,29 @@ Readme.md              | This readme file
 \manual                | Files used to create the images in the user manual
 \making_of             | Description of how the assembly instructions were created
 \images                | Images used in this readme file
+
+
+## Adding a name to the bottom part
+The model of the bottom part has the following structure:
+- Top level contains the bottom part with a name
+- The next level contain the text and the bottom part without the text.
+By default, the bottom part without the text is made visible.
+
+To add text to the bottom part:
+- Make `Bottom part with text` visible by selecting it in the model tree and pressing the space bar
+- Make `Bottom part` invisible
+- Unfold all subitems of `Slimmed text`
+- Change the `String` property of the `Name` item to the correct name
+- Right click  `Bottom part with text` and select `Recompute object`
+- Change the `Size` of `Name` if the text is too long or too short and recompute
+- Move the `Text` item if the text is no longer centered using right-click and `Transform`
+  - Modify only the red (X) and the green (Y) arrow, not the blue (Z) one
+  - The model is not updated while moving, so choose OK to see the result and repeat if needed
+  - It may be useful to reduce the `Translation Increment` 
+
+<p align="center">
+  <img src="images/transform_text.png" alt="Printing" width="350">
+</p>
 
 
 ## Printing the parts
