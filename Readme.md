@@ -74,7 +74,7 @@ After printing, the space in the bottom part where the top bar slides through ma
 What is required:
 - 1x bottom part
 - 1x top part
-- 3x regular rubber bands 60 mm x 1.4 mm 
+- Spiral spring OD 3, wire 0.5, L= 129 + 3 = 132 mm (or 3x regular rubber bands 60 mm x 1.4 mm)
 - 1x plastic L-slieve (to prevent the paper money from sliding)
 - 1x small piece of paper (to prevent the coins from making noise)
 - Money and cards
