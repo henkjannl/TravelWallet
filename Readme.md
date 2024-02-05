@@ -7,13 +7,16 @@ This wallet, although very compact, fits:
 
 So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are. You can also use a metal spring as shown below, but this requires some order and delivery time from AliExpress.
 
-:-( Video is not working somehow
+
+Video is not working somehow so I am including a somewhat lousy gif.
+
+<p align="center">
+  <img src="images/video.gif" alt="Video">
+</p>
 
 <p align="center">
   <video src="images/video.mp4" width="500px"></video>
 </p>
-
-<video src="images/video.mp4" controls="controls" "></video>
 
 The models are designed in FreeCAD, a great open source project which has come a long way and deserves much more support from the open source community. 
 This project including the assembly instructions was created by just using FreeCAD and Inkscape. Finally I used Blender for rendering and animation. Hurray for the open source community (and this is my contribution).
