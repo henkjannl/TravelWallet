@@ -5,14 +5,14 @@ This wallet, although very compact, fits:
 - up to 8 euro's in coins and
 - some paper money
 
-So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are.
+So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are. You can also use a metal spring as shown below, but this requires some order and delivery time from AliExpress.
 
 <p align="center">
-  <img src="images/wallet.png" alt="Photo" width="500">
+  <video src="images/video.mp4" width="500"  controls></video>
 </p>
 
 The models are designed in FreeCAD, a great open source project which has come a long way and deserves much more support from the open source community. 
-This project including the assembly instructions was created by just using FreeCAD and Inkscape. Hurray for the open source community (and this is my contribution).
+This project including the assembly instructions was created by just using FreeCAD and Inkscape. Finally I used Blender for rendering and animation. Hurray for the open source community (and this is my contribution).
 
 I documented the workflow of creating the IKEA style assembly instructions (bottom of this document) [HERE](making_of/Readme.md) since this can also be useful for more serious purposes (for folks who want to design a cupboard).
 
@@ -84,9 +84,16 @@ What is required:
 </p>
 
 
+Ordering information for those who like to use the spring:
+
+[https://aliexpress.com/item/4000850826894.html](https://aliexpress.com/item/4000850826894.html)
+
+I inserted a small piece threaded (cutoff M2 screw I believe) and glued it inside both sides of the spring.
+
+
 ## CAD file
 The bottom part and the top part were included as separate FreeCAD files, along with an assembly file named TravelWallet.FCStd. 
 
 <p align="center">
-  <img src="images/model.png" alt="CAD model" width="500">
+  <img src="images/travelwallet.png" alt="CAD model" width="500">
 </p>
