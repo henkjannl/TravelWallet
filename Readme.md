@@ -26,20 +26,24 @@ I documented the workflow of creating the IKEA style assembly instructions (bott
 
 The following files are included:
 
-File                   | Contains
----------------------- | ----------------
-Wallet.3mf             | Prusa project file for printing both parts, which includes the 3D models
-BottomPart.stl         | Exported 3D model of the bottom part
-TopPart.stl            | Exported 3D model of the top part
-User Manual.pdf        | The assembly instructions
-Noway_Bold.otf         | Font used for the text
-BottomPart.FCStd       | FreeCAD file of the bottom part
-TopPart.FCStd          | FreeCAD file of the top part
-TravelWallet.FCStd     | FreeCAD assembly of the travel wallet
-Readme.md              | This readme file
-\manual                | Files used to create the images in the user manual
-\making_of             | Description of how the assembly instructions were created
-\images                | Images used in this readme file
+File                               | Contains
+---------------------------------- | ----------------
+Wallet.3mf                         | Prusa project file for printing both parts, which includes the 3D models
+Wallet - single spring version.3mf | Prusa project file for printing both parts, which includes the 3D models
+BottomPart.stl                     | Exported 3D model of the bottom part
+TopPart.stl                        | Exported 3D model of the top part
+TopPart - single spring.stl        | Exported 3D model of the top part
+User Manual.pdf                    | The assembly instructions
+Noway_Bold.otf                     | Font used for the text
+BottomPart.FCStd                   | FreeCAD file of the bottom part
+TopPart.FCStd                      | FreeCAD file of the top part
+TravelWallet.FCStd                 | FreeCAD assembly of the travel wallet
+Readme.md                          | This readme file
+\manual                            | Files used to create the images in the user manual
+\making_of                         | Description of how the assembly instructions were created
+\render                            | Blender files to create the movie
+\images                            | Images used in this readme file
+\miscellaneous                     | Some unfinished versions wallet
 
 
 ## Adding a name to the bottom part
