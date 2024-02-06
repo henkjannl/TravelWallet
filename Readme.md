@@ -22,6 +22,9 @@ The MP4 version of the video is not showing at all:
 This link is also not working:
 <video src="images/video.mp4" width="320" height="240" controls></video>
 
+Also no success:
+![non working video](images/video.mp4)
+
 The models are designed in FreeCAD, a great open source project which has come a long way and deserves much more support from the open source community. 
 This project including the assembly instructions was created by just using FreeCAD and Inkscape. Finally I used Blender for rendering and animation. Hurray for the open source community (and this is my contribution).
 
