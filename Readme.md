@@ -8,12 +8,13 @@ This wallet, although very compact, fits:
 So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are. You can also use a metal spring as shown below, but this requires some order and delivery time from AliExpress.
 
 
-Video is not working somehow so I am including a somewhat lousy gif.
+Video is not working somehow so I am including a gif:
 
 <p align="center">
   <img src="images/video.gif" alt="Video">
 </p>
 
+The MP4 version of the video is not showing at all:
 <p align="center">
   <video src="images/video.mp4" width="500px"></video>
 </p>
