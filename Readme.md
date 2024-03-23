@@ -5,33 +5,35 @@ This wallet, although very compact, fits:
 - up to 8 euro's in coins and
 - some paper money
 
-So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are.
+So if you include the right cards, you can travel the world with not much more than this. If the rubber bands lose their tension, they can easily be replaced wherever you are. You can also use a metal spring as shown below, but this requires some order and delivery time from AliExpress.
 
 <p align="center">
-  <img src="images/wallet.png" alt="Photo" width="500">
+  <img src="images/video.gif" alt="Video">
 </p>
 
 The models are designed in FreeCAD, a great open source project which has come a long way and deserves much more support from the open source community. 
-This project including the assembly instructions was created by just using FreeCAD and Inkscape. Hurray for the open source community (and this is my contribution).
+This project including the assembly instructions was created by just using FreeCAD and Inkscape. I used Blender for rendering and animation. Hurray for the open source community.
 
 I documented the workflow of creating the IKEA style assembly instructions (bottom of this document) [HERE](making_of/Readme.md) since this can also be useful for more serious purposes (for folks who want to design a cupboard).
 
 The following files are included:
 
-File                   | Contains
----------------------- | ----------------
-Wallet.3mf             | Prusa project file for printing both parts, which includes the 3D models
-BottomPart.stl         | Exported 3D model of the bottom part
-TopPart.stl            | Exported 3D model of the top part
-User Manual.pdf        | The assembly instructions
-Noway_Bold.otf         | Font used for the text
-BottomPart.FCStd       | FreeCAD file of the bottom part
-TopPart.FCStd          | FreeCAD file of the top part
-TravelWallet.FCStd     | FreeCAD assembly of the travel wallet
-Readme.md              | This readme file
-\manual                | Files used to create the images in the user manual
-\making_of             | Description of how the assembly instructions were created
-\images                | Images used in this readme file
+File                               | Contains
+---------------------------------- | ----------------
+Wallet.3mf                         | Prusa project file for printing both parts, which includes the 3D models
+Wallet - single spring version.3mf | Prusa project file for printing both parts, if you want the spring version
+BottomPart.stl                     | Exported 3D model of the bottom part
+TopPart.stl                        | Exported 3D model of the top part, rubber bands version
+TopPart - single spring.stl        | Exported 3D model of the top part, spring version
+User Manual.pdf                    | The assembly instructions
+Noway_Bold.otf                     | Font used for the text
+TravelWallet V2.FCStd              | FreeCAD assembly of the travel wallet
+Readme.md                          | This readme file
+\manual                            | Files used to create the images in the user manual
+\making_of                         | Description of how the assembly instructions were created
+\render                            | Blender files to create the movie
+\images                            | Images used in this readme file
+\miscellaneous                     | Some unfinished versions of the wallet
 
 
 ## Adding a name to the bottom part
@@ -59,14 +61,13 @@ To add text to the bottom part:
 
 ## Printing the parts
 
-The print instructions assume the Prusa slicer, but other slicers will also be fine. I used PETG but other materials such as PLA will be no problem. I printed both parts upright so the U-shapes come out strong.
+The print instructions assume the Prusa slicer, but other slicers will also be fine. `Wallet.3mf` contains a project file for Prusaslicer.
 
 <p align="center">
   <img src="images/printing.png" alt="Printing" width="350">
 </p>
 
 After printing, the space in the bottom part where the top bar slides through may need a little grinding to ensure a smooth guide.
-
 
 
 ## Assembly instructions
@@ -84,9 +85,13 @@ What is required:
 </p>
 
 
-## CAD file
-The bottom part and the top part were included as separate FreeCAD files, along with an assembly file named TravelWallet.FCStd. 
+Ordering information for those who like to use the spring:
+
+[https://aliexpress.com/item/4000850826894.html](https://aliexpress.com/item/4000850826894.html)
+
+I inserted a small piece threaded (cutoff M2 screw I believe) and glued it inside both sides of the spring.
+
 
 <p align="center">
-  <img src="images/model.png" alt="CAD model" width="500">
+  <img src="images/travelwallet.png" alt="CAD model" width="500">
 </p>
